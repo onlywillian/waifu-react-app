@@ -1,0 +1,27 @@
+.waifu-container {
+    border: 5px solid chartreuse;
+    border-radius: 15px;
+    min-height: 200px;
+    padding: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+i {
+    align-self: center;
+}
+button {
+    border: none;
+    padding: 10px;
+    background: chartreuse;
+    font-size: 1rem;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.waifu-picture {
+    height: 70%;
+}
