@@ -19,7 +19,7 @@ const Waifu = () => {
             <h1>Chose Your Waifu:</h1>
             <button onClick={handleClick}>New Waifu For Me!</button>
             <img src={pic} className="waifu-picture" />
-            <i>Proibido bater Punh4ta</i>
+            <i>Prohibited Jacking Off</i>
         </div>
      );
 }
