@@ -9,7 +9,7 @@ const Waifu = () => {
     async function handleClick(e) {
         e.preventDefault();
 
-        const response = await axios.get("https://api.waifu.pics/sfw/waifu");
+        const response = await axios.get("https://api.waifu.pics/nsfw/waifu");
 
         setPic(response.data.url);
     }
